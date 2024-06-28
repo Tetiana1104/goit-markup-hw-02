@@ -47,7 +47,7 @@ a{
 
 .contacts-link{
         font-size: 16px;
-        line-height: 1.5%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -77,6 +77,7 @@ background-color: #2e2f42;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: #fff;
        }
 
@@ -86,14 +87,22 @@ background-color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;   
+    background: #4d5ae5; 
+    cursor: pointer;
        }
+
+.hero-primary-btn:hover,
+.hero-primary-btn:focus{
+    background-color: #404BBF;
+}
+
 
         /* hero */
 
        /* features */
 .features{
 
+    
 }
 
 .features-list{
@@ -123,10 +132,16 @@ background-color: #2e2f42;
 
      /* team */
 .team{
-
+background-color: #F4F4FD;
 }
 
 .team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02e;
+    text-transform: capitalize;
+    color: #2e2f42;
 
 }
 
@@ -135,6 +150,7 @@ background-color: #2e2f42;
 }
 
 .team-item{
+    background-color: #FFFFFF;
 
 }
 
@@ -162,6 +178,12 @@ background-color: #2e2f42;
  }
 
  .portfolio-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 
  }
 
